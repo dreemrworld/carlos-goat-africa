@@ -55,17 +55,17 @@ export const experiencesData = [
     title: 'Technology Entrepreneur',
     company: 'Freelancing, Remote',
     description:
-      'Impacting over 10k people around the world with a variety of AI-powered digital solutions. Business consultant helping with feasibility analysis for projects reducing import reliance.',
+      'Developing the technology and business models to help grow the AI-powered entrepreneurship movement in Africa.',
     period: 'Dec 2021 - Present',
-    technologies: ['Cloudflare', 'Supabase', 'AI', 'Android OS'],
+    technologies: ['Cloudflare', 'Supabase', 'Android OS'],
   },
   {
     title: 'Public Sector Auditor',
     company: 'Court of Auditors of Angola',
     description:
-      'Contributed to digital transformation aiming to connect 750 staff to intranet and integrated national finance system. Participated in $50-100B USD public sector audits. Managed 80 EU/UNDP scholarship delegates.',
+      'International thought leader in digital tools to increase effiency and effectiveness of public sector auditing.',
     period: 'Jan 2020 - Nov 2021',
-    technologies: ['Compliance Audit', 'Financial Audit', 'ISSAI', 'INTOSAI'],
+    technologies: ['Public Sector Auditing', 'Public Finance', 'Blockchain'],
   },
 ] as const;
 

@@ -56,9 +56,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A full stack developer based in Angola. I am passionate about building a
-        new future, and the technology that simplifies entrepreneurship in
-        Africa.
+        A full stack developer based in Angola. Building a new future, and the
+        technology that simplifies entrepreneurship in Africa.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
