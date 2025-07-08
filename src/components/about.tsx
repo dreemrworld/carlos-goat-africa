@@ -22,9 +22,7 @@ export const About = () => {
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
           My name is Carlos Araújo. I am a self-taught full stack developer
-          creating enterprise and consumer software.
-          My goal is to create apps, plugins, APIs and websites
-          trusted and used by millions of people around the world.
+          creating enterprise and consumer software. My goal is to create apps, plugins, APIs and websites trusted and used by millions of people around the world.
         </p>
       </div>
       <Skills />
