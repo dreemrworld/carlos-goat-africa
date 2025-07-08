@@ -3,7 +3,7 @@ import { env } from '@/env.mjs';
 export const siteConfig = {
   title: 'Carlos Araújo | Full stack developer',
   description:
-    "Hello, I'm Carlos Araújo. I am full stack developer from Angola. I enjoy building sites and apps. My focus is React (Next.js).",
+    "Hello, I am Carlos Araújo, a technology entrepreneur in Angola. Welcome to my developer profile. Let's connect.",
   keywords: [
     'Carlos Araújo',
     'Full stack developer',
@@ -26,6 +26,6 @@ export const siteConfig = {
     'Programming',
     'Tech enthusiast',
   ],
-  url: env.SITE_URL || 'https://example.com',
+  url: env.SITE_URL || 'https://dev.goat.africa',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
