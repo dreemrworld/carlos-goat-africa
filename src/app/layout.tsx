@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.title, // Often the same as the main title
     images: [
       {
-        url: '/og-image.jpg', // Path to your OG image in the public folder
+        url: '/images/og-image.jpg', // Path to your OG image in the public folder
         width: 1200, // Recommended width
         height: 630, // Recommended height
         alt: siteConfig.title, // Alt text for accessibility and SEO
