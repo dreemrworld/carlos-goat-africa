@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: siteConfig.googleSiteVerificationId,
-},
+  },
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
