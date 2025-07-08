@@ -40,7 +40,7 @@ export const projectsData = [
     image: '/images/project-1.webp',
     title: 'Word Explorer',
     description:
-      'A fun way to learn new words. See the spelling,definition,synonyms,antonyms,and hear the correct pronounciation.',
+      'A new and fun way to learn the spelling and pronounciation of english words!',
     technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
     links: {
       preview: 'https://www.goat.africa/webapps/dictionary',
@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       'Developing the technology and business models to help grow the AI-powered entrepreneurship movement in Africa.',
     period: 'Dec 2021 - Present',
-    technologies: ['Cloudflare', 'Supabase', 'Android OS'],
+    technologies: ['Cloud', 'MCP', 'AI'],
   },
   {
     title: 'Public Sector Auditor',
