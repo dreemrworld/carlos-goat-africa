@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: siteConfig.googleSiteVerificationId,
-};
+},
  // --- ADD THESE OPEN GRAPH AND TWITTER PROPERTIES ---
   openGraph: {
     title: siteConfig.title,
