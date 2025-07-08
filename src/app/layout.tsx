@@ -27,7 +27,6 @@ export const metadata: Metadata = {
   verification: {
     google: siteConfig.googleSiteVerificationId,
 },
- // --- ADD THESE OPEN GRAPH AND TWITTER PROPERTIES ---
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -50,10 +49,7 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     images: ['/og-image.jpg'], // Path to your OG image
-    // creator: '@yourtwitterhandle', // Optional: if you have a Twitter handle
-    // site: '@yoursitehandle', // Optional: if your site has a dedicated Twitter handle
   },
-  // --- END ADDITION ---
 };
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
