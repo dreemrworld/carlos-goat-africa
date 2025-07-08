@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || '',
+  siteUrl: 'https://dev.goat.africa',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {
