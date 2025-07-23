@@ -25,15 +25,25 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Currency Converter',
+    image: '/images/project-3.webp',
+    title: 'Multimodal AI Assistant',
     description:
-      'See the live fx rates between +180 countries. Essential tool for anyone working in import/exports.',
-    technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
+      'Democratizing access to the top AI models. Empowering students, educators, health workers & entrepreneurs.',
+    technologies: ['Next.js', 'Cloudflare', 'API'],
     links: {
-      preview: 'https://www.goat.africa/webapps/live-fx-rates',
-      github: 'https://www.goat.africa/webapps/live-fx-rates',
-      githubApi: 'https://api.github.com/repos/dreemrworld/',
+      preview: 'https://chat.goat.africa',
+    },
+  },
+  {
+    image: '/images/project-4.webp',
+    title:
+      'Public Sector Auditing: digital tools to increase effiency and effectieveness',
+    description:
+      'EU/UNDP-funded and published in leading journals. Presented at ECOBATE 2024 & Blockchain Conf. 2023',
+    technologies: ['Blockchain', 'IoT', 'AI'],
+    links: {
+      preview:
+        'https://www.agora-parl.org/sites/default/files/palop-publications/PALOP-TL%202022%20Volume%20II.pdf',
     },
   },
   {
@@ -44,8 +54,16 @@ export const projectsData = [
     technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
     links: {
       preview: 'https://www.goat.africa/webapps/dictionary',
-      github: 'https://www.goat.africa/webapps/dictionary',
-      githubApi: 'https://api.github.com/repos/dreemrworld',
+    },
+  },
+  {
+    image: '/images/project-2.webp',
+    title: 'Currency Converter',
+    description:
+      'See the live fx rates between +180 countries. Essential tool for anyone working in import/exports.',
+    technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
+    links: {
+      preview: 'https://www.goat.africa/webapps/live-fx-rates',
     },
   },
 ] as const;

@@ -39,10 +39,10 @@ export const Project = ({ project, index }: TProps) => {
         once: true,
       }}
       custom={index}
-      className="flex flex-col rounded border p-5 md:w-1/2"
+      className="flex flex-col rounded border p-5"
     >
       <Link
-        href={links.github}
+        href={links.preview}
         aria-label={title}
         target="_blank"
         className="overflow-hidden rounded"

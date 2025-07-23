@@ -1,3 +1,9 @@
+Quickstart to edit and deploy - Carlos Araújo 
+1) git clone & cd Portfolio 
+2) npm install
+3) npx next dev
+
+____
 ## 🎉 Project Overview
 My personal portfolio website built using Next.js, Tailwind CSS and Framer-motion.
 
