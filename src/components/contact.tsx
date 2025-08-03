@@ -86,7 +86,7 @@ export const Contact = () => {
           <input
             type="email"
             id="email"
-            placeholder="hello@gmail.com"
+            placeholder="your email address"
             {...register('email')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
@@ -111,7 +111,7 @@ export const Contact = () => {
           </label>
           <textarea
             id="message"
-            placeholder="Hello! What's up?"
+            placeholder="Your message"
             {...register('message')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
