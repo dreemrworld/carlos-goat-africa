@@ -55,6 +55,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans', fonts)}>
+        <div className="fixed left-0 top-0 z-[-2] size-full bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)] dark:bg-gray-950 dark:bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.05)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]" />
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
             {children}
