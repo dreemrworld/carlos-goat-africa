@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.title, // Often the same as the main title
     images: [
       {
-        url: '/images/og-image.jpg', // Path to your OG image in the public folder
+        url: 'public/images/og-image.jpg', // Path to your OG image in the public folder
         width: 1200, // Recommended width
         height: 630, // Recommended height
         alt: siteConfig.title, // Alt text for accessibility and SEO
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image', // Use 'summary_large_image' for a prominent image
     title: siteConfig.title,
     description: siteConfig.description,
-    images: ['/og-image.jpg'], // Path to your OG image
+    images: ['public/images/og-image.jpg'], // Path to your OG image
   },
 };
 const RootLayout = ({ children }: PropsWithChildren) => {
