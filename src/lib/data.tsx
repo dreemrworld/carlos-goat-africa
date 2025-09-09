@@ -46,26 +46,6 @@ export const projectsData = [
         'https://www.agora-parl.org/sites/default/files/palop-publications/PALOP-TL%202022%20Volume%20II.pdf',
     },
   },
-  {
-    image: '/images/project-1.webp',
-    title: 'Word Explorer',
-    description:
-      'A new and fun way to learn the spelling and pronounciation of english words!',
-    technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
-    links: {
-      preview: 'https://www.goat.africa/webapps/dictionary',
-    },
-  },
-  {
-    image: '/images/project-2.webp',
-    title: 'Currency Converter',
-    description:
-      'See the live fx rates between +180 countries. Essential tool for anyone working in import/exports.',
-    technologies: ['React', 'Vite', 'TailwindCSS', 'API'],
-    links: {
-      preview: 'https://www.goat.africa/webapps/live-fx-rates',
-    },
-  },
 ] as const;
 
 export const experiencesData = [

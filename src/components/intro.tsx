@@ -14,7 +14,7 @@ export const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="my-10 flex scroll-mt-96 flex-col items-center gap-5 text-center sm:mt-28"
+      className="my-5 flex scroll-mt-96 flex-col items-center gap-5 text-center sm:mt-12"
     >
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
@@ -71,11 +71,6 @@ export const Intro = () => {
           <Link href="#contact">
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
-        </Button>
-        <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/carlosaraujo.pdf" download>
-            Download CV <Icons.download className="ml-2 size-4" />
-          </a>
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
