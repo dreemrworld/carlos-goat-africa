@@ -1,7 +1,7 @@
 module.exports = {
   siteUrl: 'https://dev.goat.africa',
   generateRobotsTxt: true,
-  generateIndexSitemap: false,
+  generateIndexSitemap: true,
   robotsTxtOptions: {
     policies: [{ userAgent: '*', allow: '/' }],
   },
