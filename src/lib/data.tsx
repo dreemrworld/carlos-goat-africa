@@ -25,11 +25,31 @@ export const links = [
 
 export const projectsData = [
   {
+    image: 'https://opengraph.githubassets.com/1/dreemrworld/chat.bull.africa',
+    title: 'Bullish on AI and Africa',
+    description:
+      'Modern AI chatbot battery packed for you with state of the art features. Star, fork and share so more people can find it and save time.',
+    technologies: ['Next.js 15', 'AI-SDK 5', 'Open Source', 'AI Chat'],
+    links: {
+      preview: 'https://github.com/dreemrworld/chat.bull.africa',
+    },
+  },
+  {
+    image: 'https://opengraph.githubassets.com/1/dreemrworld/html-wysiwyg',
+    title: 'HTML WYSIWYG',
+    description:
+      'What You See Is What You Get - edit and preview HTML directly in your browser. Star, fork and contribute to this Open Source repository.',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'CF Workers'],
+    links: {
+      preview: 'https://github.com/dreemrworld/html-wysiwyg',
+    },
+  },
+  {
     image: '/images/project-3.webp',
     title: 'Multimodal AI Assistant',
     description:
       'Democratizing access to the top AI models. Empowering students, educators, health workers & entrepreneurs.',
-    technologies: ['Next.js', 'Cloudflare', 'API'],
+    technologies: ['Next.js', 'Vercel', 'Better Auth'],
     links: {
       preview: 'https://chat.goat.africa',
     },
@@ -37,7 +57,7 @@ export const projectsData = [
   {
     image: '/images/project-4.webp',
     title:
-      'Public Sector Auditing: digital tools to increase effiency and effectieveness',
+      'Public Sector Auditing: digital tools to increase effiency and effectiveness',
     description:
       'EU/UNDP-funded and published in leading journals. Presented at ECOBATE 2024 & Blockchain Conf. 2023',
     technologies: ['Blockchain', 'IoT', 'AI'],

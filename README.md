@@ -3,6 +3,8 @@ Quickstart to edit and deploy - Carlos Araújo
 2) npm install
 3) npx next dev
 
+wrangler pages secret put RESEND_API_KEY --project-name dev-goat-africa
+
 ____
 ## 🎉 Project Overview
 My personal portfolio website built using Next.js, Tailwind CSS and Framer-motion.
