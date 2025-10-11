@@ -1,39 +1,14 @@
 'use client';
 
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { toast } from 'sonner';
 
-import { sendEmailAction } from '@/actions/send-email';
 import { Button } from '@/components/button';
-import { Icons } from '@/components/icons';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
-import { formSchema, TFormSchema } from '@/lib/form-schema';
-import { cn } from '@/lib/utils';
 
 export const Contact = () => {
   const { ref } = useSectionInView('Contact');
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm<TFormSchema>({ resolver: zodResolver(formSchema) });
-
-  const onSubmit = async (values: TFormSchema) => {
-    const { data, error } = await sendEmailAction(values);
-
-    if (error) {
-      toast.error(error);
-      return;
-    }
-
-    toast.success(data);
-    reset();
-  };
 
   return (
     <motion.section
@@ -57,7 +32,7 @@ export const Contact = () => {
         heading="Get In Touch"
         content={
           <>
-            Please contact me directly at{' '}
+            Please contact me directly by email{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
@@ -65,69 +40,18 @@ export const Contact = () => {
             >
               <Link href="mailto:carlos@goat.africa">carlos@goat.africa</Link>
             </Button>{' '}
-            or through this form.
+            or{' '}
+            <Button
+              variant="link"
+              className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
+              asChild
+            >
+              <Link href="https://wa.me/244925604727">WhatsApp</Link>
+            </Button>
+            .
           </>
         }
       />
-      <form
-        onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col items-center gap-5"
-      >
-        <div className="w-full max-w-xl">
-          <label
-            htmlFor="email"
-            className={cn(
-              'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
-              errors.email?.message && 'text-destructive'
-            )}
-          >
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Your email address"
-            {...register('email')}
-            className={cn(
-              'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
-              errors.email?.message && 'border-destructive'
-            )}
-          />
-          {errors.email?.message && (
-            <p className="text-destructive mt-1 text-sm">
-              {errors.email?.message}
-            </p>
-          )}
-        </div>
-        <div className="w-full max-w-xl">
-          <label
-            htmlFor="message"
-            className={cn(
-              'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
-              errors.message?.message && 'text-destructive'
-            )}
-          >
-            Message
-          </label>
-          <textarea
-            id="message"
-            placeholder="Your message"
-            {...register('message')}
-            className={cn(
-              'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
-              errors.message?.message && 'border-destructive'
-            )}
-          ></textarea>
-          {errors.message?.message && (
-            <p className="text-destructive mt-1 text-sm">
-              {errors.message?.message}
-            </p>
-          )}
-        </div>
-        <Button size="lg">
-          Submit <Icons.arrowRight className="ml-2 size-4" />
-        </Button>
-      </form>
     </motion.section>
   );
 };
