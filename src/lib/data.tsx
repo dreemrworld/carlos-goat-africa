@@ -2,34 +2,34 @@ import { Icons } from '@/components/icons';
 
 export const links = [
   {
-    name: 'Home',
+    name: 'Início',
     hash: '#home',
   },
   {
-    name: 'About',
+    name: 'Sobre',
     hash: '#about',
   },
   {
-    name: 'Experience',
+    name: 'Experiência',
     hash: '#experience',
   },
   {
-    name: 'Projects',
+    name: 'Projectos',
     hash: '#projects',
   },
   {
-    name: 'Contact',
-    hash: '#contact',
+    name: 'Contacto',
+    hash: '#contacto',
   },
 ] as const;
 
 export const projectsData = [
   {
     image: 'https://opengraph.githubassets.com/1/dreemrworld/chat.bull.africa',
-    title: 'Bullish on AI and Africa',
+    title: 'Otimista sobre IA e África',
     description:
-      'Modern AI chatbot battery packed for you with state of the art features. Star, fork and share so more people can find it and save time.',
-    technologies: ['Next.js 15', 'AI-SDK 5', 'Open Source', 'AI Chat'],
+      'Bateria moderna de chatbot de IA equipada com funcionalidades de ponta. Dê estrela, faça fork e partilhe para que mais pessoas o encontrem e poupem tempo.',
+    technologies: ['Next.js 15', 'AI-SDK 5', 'Código Aberto', 'Chat IA'],
     links: {
       preview: 'https://github.com/dreemrworld/chat.bull.africa',
     },
@@ -38,7 +38,7 @@ export const projectsData = [
     image: 'https://opengraph.githubassets.com/1/dreemrworld/html-wysiwyg',
     title: 'HTML WYSIWYG',
     description:
-      'What You See Is What You Get - edit and preview HTML directly in your browser. Star, fork and contribute to this Open Source repository.',
+      'O que vê é o que obtém - edite e visualize HTML diretamente no seu navegador. Dê estrela, faça fork e contribua para este repositório de Código Aberto.',
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'CF Workers'],
     links: {
       preview: 'https://github.com/dreemrworld/html-wysiwyg',
@@ -46,9 +46,9 @@ export const projectsData = [
   },
   {
     image: '/images/project-3.webp',
-    title: 'Multimodal AI Assistant',
+    title: 'Assistente IA Multimodal',
     description:
-      'Democratizing access to the top AI models. Empowering students, educators, health workers & entrepreneurs.',
+      'Democratizando o acesso aos melhores modelos de IA. Capacitando estudantes, educadores, profissionais de saúde e empreendedores.',
     technologies: ['Next.js', 'Vercel', 'Better Auth'],
     links: {
       preview: 'https://chat.goat.africa',
@@ -57,10 +57,10 @@ export const projectsData = [
   {
     image: '/images/project-4.webp',
     title:
-      'Public Sector Auditing: digital tools to increase effiency and effectiveness',
+      'Auditoria do Sector Público: ferramentas digitais para aumentar a eficiência e eficácia',
     description:
-      'EU/UNDP-funded and published in leading journals. Presented at ECOBATE 2024 & Blockchain Conf. 2023',
-    technologies: ['Blockchain', 'IoT', 'AI'],
+      'Financiado pela UE/PNUD e publicado em revistas de referência. Apresentado no ECOBATE 2024 e na Blockchain Conf. 2023',
+    technologies: ['Blockchain', 'IoT', 'IA'],
     links: {
       preview:
         'https://www.agora-parl.org/sites/default/files/palop-publications/PALOP-TL%202022%20Volume%20II.pdf',
@@ -70,20 +70,23 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Technology Entrepreneur',
-    company: 'Freelancing, Remote',
+    title: 'Fundador',
+    company: 'Gestão Otimização e Aceleração Tecnológica',
     description:
-      'Developing the technology and business models to help grow the AI-powered entrepreneurship movement in Africa.',
-    period: 'Dec 2021 - Present',
-    technologies: ['Cloud', 'MCP', 'AI'],
+      'Startup de Inteligência Artificial (I.A.) em Angola. Freelancer em contratação pública, elaboração de planos de negócios, e estudos de viabilidade. Também desenvolve aplicativos web como goat.africa e bull.africa, com mais de 5mil visitantes por mês. ',
+    period: 'Dez 2021 - Presente',
+    technologies: ['Consultoria', 'Apps', 'I.A.'],
   },
   {
-    title: 'Public Sector Auditor',
-    company: 'Court of Auditors of Angola',
-    description:
-      'International thought leader in digital tools to increase effiency and effectiveness of public sector auditing.',
+    title: 'Técnico Superior',
+    company: 'Tribunal de Contas de Angola',
+    description: `Candidato para o melhor trabalho de pesquisa sobre Finanças Públicas pelo Tribunal de Contas da Europa. Bolseiro e delegado de turma para o curso em Finanças Públicas co-financiado pela UE e a PNUD (PRO-PALOP). Apresentou em conferências internacionais sobre governação, tecnologia e finanças públicas remotamente de Angola. Ajudou introduzir Auditorias de Desempenho (ISSAI 300) em colaboração com a AFROSAI. `,
     period: 'Jan 2020 - Nov 2021',
-    technologies: ['Public Sector Auditing', 'Public Finance', 'Blockchain'],
+    technologies: [
+      'Auditoria do Sector Público',
+      'Finanças Públicas',
+      'Blockchain',
+    ],
   },
 ] as const;
 

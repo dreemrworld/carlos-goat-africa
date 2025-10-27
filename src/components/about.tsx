@@ -7,7 +7,7 @@ import { Skills } from '@/components/skills';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const About = () => {
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView('Sobre');
 
   return (
     <motion.section
@@ -18,13 +18,12 @@ export const About = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <SectionHeading heading="About Me" />
+      <SectionHeading heading="Sobre Mim" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          My name is Carlos Araújo. I am a self-taught full stack developer
-          creating enterprise and consumer software. My goal is to create apps,
-          plugins, APIs and websites trusted and used by millions of people
-          around the world.
+          O Carlos Araújo nasceu em Luanda, Angola em 1992. É o terceiro filho
+          do Raul Araújo e da Arlete da Conceição. Morou 20 anos na Cidade do
+          Cabo e 2 anos na Holanda. Tem esposa e uma filha.
         </p>
       </div>
       <Skills />

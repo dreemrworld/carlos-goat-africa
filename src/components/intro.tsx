@@ -8,7 +8,7 @@ import { Icons } from '@/components/icons';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const Intro = () => {
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('Início');
 
   return (
     <section
@@ -25,7 +25,7 @@ export const Intro = () => {
         }}
       >
         <Link
-          href="#contact"
+          href="#contacto"
           className="flex items-center gap-3 rounded border px-3 py-1"
         >
           <span className="relative flex size-2">
@@ -33,7 +33,7 @@ export const Intro = () => {
             <span className="relative flex size-2 rounded-full bg-green-400"></span>
           </span>
           <span className="font-mono text-sm">
-            Available for collaborations
+            Disponível para colaborações
           </span>
         </Link>
       </motion.div>
@@ -42,11 +42,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m a{' '}
+        Especialista em{' '}
         <span className="bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent">
-          Full Stack
+          I.A.
         </span>{' '}
-        developer creating modern web apps
+        e Consultor
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -56,8 +56,9 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A full stack developer based in Angola. Building a new future, and the
-        technology that simplifies entrepreneurship in Africa.
+        Ex-Técnico Superior do Tribunal de Contas, autor, e criador de programas
+        de inteligência artificial. Também presta serviços de elaboração de
+        planos de negócios e estudos de viabilidade.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -68,8 +69,8 @@ export const Intro = () => {
         className="flex flex-row gap-2"
       >
         <Button asChild size="lg">
-          <Link href="#contact">
-            Get in touch <Icons.arrowRight className="ml-2 size-4" />
+          <Link href="#contacto">
+            Entrar em contacto <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
         <Button variant="outline" size="icon" asChild>

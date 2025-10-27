@@ -41,7 +41,7 @@ export const Header = () => {
         <DialogContent className="text-muted-foreground max-h-screen w-[90%] rounded">
           <DialogHeader>
             <DialogTitle className="text-md self-start font-medium">
-              Navigation
+              Navegação
             </DialogTitle>
           </DialogHeader>
           <nav>

@@ -8,12 +8,12 @@ import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const Contact = () => {
-  const { ref } = useSectionInView('Contact');
+  const { ref } = useSectionInView('Contacto');
 
   return (
     <motion.section
       ref={ref}
-      id="contact"
+      id="contacto"
       className="my-10 w-full scroll-mt-28 md:mb-20"
       initial={{
         opacity: 0,
@@ -29,10 +29,10 @@ export const Contact = () => {
       }}
     >
       <SectionHeading
-        heading="Get In Touch"
+        heading="Entrar em Contacto"
         content={
           <>
-            Please contact me directly by email{' '}
+            Contacte-me diretamente por email{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
@@ -40,7 +40,7 @@ export const Contact = () => {
             >
               <Link href="mailto:carlos@goat.africa">carlos@goat.africa</Link>
             </Button>{' '}
-            or{' '}
+            ou{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"

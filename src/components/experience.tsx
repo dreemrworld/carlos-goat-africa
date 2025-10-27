@@ -10,7 +10,7 @@ import { experiencesData } from '@/lib/data';
 import { cn } from '@/lib/utils';
 
 export const Experience = () => {
-  const { ref: sectionRef } = useSectionInView('Experience');
+  const { ref: sectionRef } = useSectionInView('Experiência');
 
   return (
     <section
@@ -19,8 +19,8 @@ export const Experience = () => {
       className="my-10 scroll-mt-28 md:mb-20"
     >
       <SectionHeading
-        heading="My Experience"
-        content="Professional experience that I have accumulated over several years."
+        heading="A Minha Experiência"
+        content="Experiência profissional que acumulei ao longo de vários anos."
       />
       <div className="relative max-w-screen-md">
         {experiencesData.map(

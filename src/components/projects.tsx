@@ -8,7 +8,7 @@ import { useSectionInView } from '@/hooks/use-section-in-view';
 import { projectsData } from '@/lib/data';
 
 export const Projects = () => {
-  const { ref } = useSectionInView('Projects');
+  const { ref } = useSectionInView('Projectos');
 
   return (
     <section ref={ref} id="projects" className="my-10 scroll-mt-28 md:mb-20">
@@ -26,8 +26,8 @@ export const Projects = () => {
         }}
       >
         <SectionHeading
-          heading="My Projects"
-          content="Projects I worked on. Each of them containing its own case study."
+          heading="Os Meus Projectos"
+          content="Projectos em que trabalhei. Cada um deles contém o seu próprio estudo de caso."
         />
       </motion.div>
       <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
