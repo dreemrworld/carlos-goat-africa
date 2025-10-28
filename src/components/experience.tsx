@@ -20,7 +20,7 @@ export const Experience = () => {
     >
       <SectionHeading
         heading="A Minha Experiência"
-        content="Experiência profissional que acumulei ao longo de vários anos."
+        content="Especialista em finanças públicas, tecnologia e gestão empresarial."
       />
       <div className="relative max-w-screen-md">
         {experiencesData.map(

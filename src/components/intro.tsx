@@ -42,11 +42,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Especialista em{' '}
+        Serviços de{' '}
         <span className="bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent">
-          I.A.
+          consultoria
         </span>{' '}
-        e Consultor
+        em inteligência artificial
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}

@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://dev.goat.africa',
+  siteUrl: 'https://carlos.goat.africa',
   generateRobotsTxt: true,
   generateIndexSitemap: true,
   robotsTxtOptions: {

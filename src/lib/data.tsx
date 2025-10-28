@@ -26,30 +26,40 @@ export const links = [
 export const projectsData = [
   {
     image: 'https://opengraph.githubassets.com/1/dreemrworld/chat.bull.africa',
-    title: 'Otimista sobre IA e África',
+    title: 'Chat Bull - chat.bull.africa',
     description:
-      'Bateria moderna de chatbot de IA equipada com funcionalidades de ponta. Dê estrela, faça fork e partilhe para que mais pessoas o encontrem e poupem tempo.',
+      'Chatbot de IA de ponta desenvolvido com Next.js 15 e AI SDK 5. Implemente globalmente em Cloudflare Workers em segundos. Gratuito, de código aberto e a impulsionar a revolução da IA em África! ',
     technologies: ['Next.js 15', 'AI-SDK 5', 'Código Aberto', 'Chat IA'],
     links: {
       preview: 'https://github.com/dreemrworld/chat.bull.africa',
     },
   },
   {
+    image: 'https://opengraph.githubassets.com/1/dreemrworld/nota-bene',
+    title: 'Nota Bene – nb.bull.africa',
+    description:
+      'É uma aplicação web de código aberto e 100 % privada para tomar notas, que podes instalar no teu telemóvel e funcionará como uma aplicação móvel.',
+    technologies: ['React', 'Vite', 'TipTap', 'Cloudflare'],
+    links: {
+      preview: 'https://nb.bull.africa',
+    },
+  },
+  {
     image: 'https://opengraph.githubassets.com/1/dreemrworld/html-wysiwyg',
-    title: 'HTML WYSIWYG',
+    title: 'Editor de HTML - html.bull.africa',
     description:
       'O que vê é o que obtém - edite e visualize HTML diretamente no seu navegador. Dê estrela, faça fork e contribua para este repositório de Código Aberto.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'CF Workers'],
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Cloudflare'],
     links: {
       preview: 'https://github.com/dreemrworld/html-wysiwyg',
     },
   },
   {
-    image: '/images/project-3.webp',
-    title: 'Assistente IA Multimodal',
+    image: '',
+    title: 'Chat GOAT- chat.goat.africa',
     description:
       'Democratizando o acesso aos melhores modelos de IA. Capacitando estudantes, educadores, profissionais de saúde e empreendedores.',
-    technologies: ['Next.js', 'Vercel', 'Better Auth'],
+    technologies: ['Next.js', 'AI-SDK', 'Vercel'],
     links: {
       preview: 'https://chat.goat.africa',
     },
@@ -66,6 +76,61 @@ export const projectsData = [
         'https://www.agora-parl.org/sites/default/files/palop-publications/PALOP-TL%202022%20Volume%20II.pdf',
     },
   },
+  {
+    image: '',
+    title: 'Autor ',
+    description:
+      'Autor de três artigos de opinião com 4600 leitores no Centro de Investigação Economica da Universidade Lusiada de Angola (CINVESTEC)',
+    technologies: ['Finanças Públicas', 'Empreendedorismo', 'Banca'],
+    links: {
+      preview: 'https://www.cinvestec.com/author/carlos-araujo/',
+    },
+  },
+  {
+    image: '',
+    title: 'Emerging Tech 2035',
+    description: '',
+    technologies: ['Robotica', 'IA', 'Futurismo'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '',
+    title: 'ECOBATE 2024',
+    description: '',
+    technologies: ['Blockchain', 'IoT', 'IA'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '',
+    title: 'ISC 2023',
+    description: '',
+    technologies: ['Blockchain', 'IoT', 'IA'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '',
+    title: 'Infogáfico sobre a História das finanças',
+    description: 'De Medici a BTC',
+    technologies: ['Blockchain', 'IoT', 'IA'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '',
+    title: 'Ex-Aluno do Mês Março 2024',
+    description: 'Anglia Ruskin University',
+    technologies: ['Blockchain', 'IoT', 'IA'],
+    links: {
+      preview: '',
+    },
+  },
 ] as const;
 
 export const experiencesData = [
@@ -73,14 +138,14 @@ export const experiencesData = [
     title: 'Fundador',
     company: 'Gestão Otimização e Aceleração Tecnológica',
     description:
-      'Startup de Inteligência Artificial (I.A.) em Angola. Freelancer em contratação pública, elaboração de planos de negócios, e estudos de viabilidade. Também desenvolve aplicativos web como goat.africa e bull.africa, com mais de 5mil visitantes por mês. ',
+      'GOAT é uma Startup em Angola fundada por Carlos Araújo. Oferecemos expertise em consultoria de contratação pública, elaboração de planos de negócios, e estudos de viabilidade. Também desenvolvemos aplicativos web como goat.africa e bull.africa, com mais de 5mil visitantes por mês. ',
     period: 'Dez 2021 - Presente',
     technologies: ['Consultoria', 'Apps', 'I.A.'],
   },
   {
     title: 'Técnico Superior',
     company: 'Tribunal de Contas de Angola',
-    description: `Candidato para o melhor trabalho de pesquisa sobre Finanças Públicas pelo Tribunal de Contas da Europa. Bolseiro e delegado de turma para o curso em Finanças Públicas co-financiado pela UE e a PNUD (PRO-PALOP). Apresentou em conferências internacionais sobre governação, tecnologia e finanças públicas remotamente de Angola. Ajudou introduzir Auditorias de Desempenho (ISSAI 300) em colaboração com a AFROSAI. `,
+    description: `Auditor público na fiscalização preventiva e na fiscalização sucessiva do TCA.  Bolseiro e delegado de turma para o curso em Finanças Públicas co-financiado pela UE e a PNUD (PRO-PALOP). Ajudou introduzir Auditorias de Desempenho (ISSAI 300) em colaboração com a Organização Internacional de Instituições Superiores de Controle (INTOSAI). `,
     period: 'Jan 2020 - Nov 2021',
     technologies: [
       'Auditoria do Sector Público',

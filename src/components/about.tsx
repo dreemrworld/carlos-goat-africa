@@ -21,9 +21,17 @@ export const About = () => {
       <SectionHeading heading="Sobre Mim" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          O Carlos Araújo nasceu em Luanda, Angola em 1992. É o terceiro filho
-          do Raul Araújo e da Arlete da Conceição. Morou 20 anos na Cidade do
-          Cabo e 2 anos na Holanda. Tem esposa e uma filha.
+          O Carlos Alberto da Conceição Araújo foi shortlist para o melhor
+          trabalho de investigação científica sobre Auditoria Pública pelo
+          Tribunal de Contas da Europa. Apresentou em conferências
+          internacionais sobre governação, tecnologia e finanças públicas,
+          exemplo na International Scientific Conference on Blockchain em
+          Manchester, e na European Conference on Banking and Economy na
+          Universidade de Winchester. Nascido em 11 de Agosto de 1992 em Luanda,
+          é filho do Raul Araújo e da Arlete da Conceição. Morou vinte anos em
+          Cape Town, e dois anos na Holanda. Tem esposa e uma filha. Possui MBA,
+          pós-graduação, certificados profissionais e é licenciado em
+          Empreendedorismo.
         </p>
       </div>
       <Skills />

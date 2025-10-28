@@ -26,8 +26,8 @@ export const Projects = () => {
         }}
       >
         <SectionHeading
-          heading="Os Meus Projectos"
-          content="Projectos em que trabalhei. Cada um deles contém o seu próprio estudo de caso."
+          heading="Realizações e Projectos"
+          content="Carlos Araújo é autor, orador, investigador e programador."
         />
       </motion.div>
       <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
