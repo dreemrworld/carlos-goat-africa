@@ -28,7 +28,8 @@ export const projectsData = [
     image: 'https://opengraph.githubassets.com/1/dreemrworld/chat.bull.africa',
     title: 'Chat Bull - chat.bull.africa',
     description:
-      'Chatbot de IA de ponta desenvolvido com Next.js 15 e AI SDK 5. Implemente globalmente em Cloudflare Workers em segundos. Gratuito, de código aberto e a impulsionar a revolução da IA em África! ',
+      'Falta de ferramentas acessíveis para jovens empreendedores de IA em África. Criei uma aplicação social, gratuita e open source, que qualquer pessoa pode auditar, copiar ou melhorar. Já impactou positivamente milhares de estudantes e empreendedores.',
+
     technologies: ['Next.js 15', 'AI-SDK 5', 'Código Aberto', 'Chat IA'],
     links: {
       preview: 'https://github.com/dreemrworld/chat.bull.africa',
@@ -38,7 +39,7 @@ export const projectsData = [
     image: 'https://opengraph.githubassets.com/1/dreemrworld/nota-bene',
     title: 'Nota Bene – nb.bull.africa',
     description:
-      'É uma aplicação web de código aberto e 100 % privada para tomar notas, que podes instalar no teu telemóvel e funcionará como uma aplicação móvel.',
+      'As soluções em nuvem comprometem a privacidade dos meus apontamentos de investigação. Desenvolvi uma app que guarda tudo localmente, no dispositivo do utilizador, sem usar a nuvem. Os dados ficam mais seguros, privados — e o código é aberto.',
     technologies: ['React', 'Vite', 'TipTap', 'Cloudflare'],
     links: {
       preview: 'https://nb.bull.africa',
@@ -48,17 +49,17 @@ export const projectsData = [
     image: 'https://opengraph.githubassets.com/1/dreemrworld/html-wysiwyg',
     title: 'Editor de HTML - html.bull.africa',
     description:
-      'O que vê é o que obtém - edite e visualize HTML diretamente no seu navegador. Dê estrela, faça fork e contribua para este repositório de Código Aberto.',
+      'Dependia de um editor online cheio de publicidade. Criei a minha própria versão: limpa, funcional e de código abertom, sem anúncios e com total transparência.',
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'Cloudflare'],
     links: {
       preview: 'https://github.com/dreemrworld/html-wysiwyg',
     },
   },
   {
-    image: '',
+    image: '/images/project-4.webp',
     title: 'Chat GOAT- chat.goat.africa',
     description:
-      'Democratizando o acesso aos melhores modelos de IA. Capacitando estudantes, educadores, profissionais de saúde e empreendedores.',
+      'Queria construir um assistente de IA verdadeiramente útil. Criei o Pingo AI: uma aplicação completa, com autenticação e base de dados própria, capaz de responder, raciocinar, traduzir, gerar documentos e programar. É usada por 3 mil pessoas por mês.',
     technologies: ['Next.js', 'AI-SDK', 'Vercel'],
     links: {
       preview: 'https://chat.goat.africa',
@@ -69,7 +70,7 @@ export const projectsData = [
     title:
       'Auditoria do Sector Público: ferramentas digitais para aumentar a eficiência e eficácia',
     description:
-      'Financiado pela UE/PNUD e publicado em revistas de referência. Apresentado no ECOBATE 2024 e na Blockchain Conf. 2023',
+      'A auditoria pública carece de inovação metodológica. Desenvolvi uma investigação pioneira sobre auditorias de desempenho com tecnologias emergentes. Foi nomeada para o prémio de melhor pesquisa pelo Tribunal de Contas Europeu e orientada pelo ex-presidente da instituição.',
     technologies: ['Blockchain', 'IoT', 'IA'],
     links: {
       preview:
@@ -77,58 +78,97 @@ export const projectsData = [
     },
   },
   {
-    image: '',
-    title: 'Autor ',
+    image: '/images/project-4.webp',
+    title: 'Autor',
     description:
-      'Autor de três artigos de opinião com 4600 leitores no Centro de Investigação Economica da Universidade Lusiada de Angola (CINVESTEC)',
+      'Há poucas vozes angolanas em debates técnicos sobre economia. Escrevi três artigos de opinião para o CINVESTEC. Foram lidos por cerca de 4 600 pessoas.',
     technologies: ['Finanças Públicas', 'Empreendedorismo', 'Banca'],
     links: {
       preview: 'https://www.cinvestec.com/author/carlos-araujo/',
     },
   },
   {
-    image: '',
+    image: '/images/project-4.webp',
     title: 'Emerging Tech 2035',
-    description: '',
+    description:
+      'Poucos em África discutem o futuro tecnológico com clareza. Criei um infográfico com a minha visão das tecnologias que serão comuns daqui a 10 anos, e partilhei com todos.',
     technologies: ['Robotica', 'IA', 'Futurismo'],
     links: {
       preview: '',
     },
   },
   {
-    image: '',
+    image: '/images/project-4.webp',
     title: 'ECOBATE 2024',
-    description: '',
+    description:
+      'Precisamos de mais diálogo entre África e a Europa sobre finanças e tecnologia. Participei como palestrante convidado na European Conference on Banking and the Economy 2024, em Winchester.',
     technologies: ['Blockchain', 'IoT', 'IA'],
     links: {
       preview: '',
     },
   },
   {
-    image: '',
+    image: '/images/project-4.webp',
     title: 'ISC 2023',
-    description: '',
+    description:
+      'O potencial do blockchain em governança pública merece mais atenção. Apresentei as minhas ideias na International Scientific Conference on Blockchain em Manchester.',
     technologies: ['Blockchain', 'IoT', 'IA'],
     links: {
       preview: '',
     },
   },
   {
-    image: '',
-    title: 'Infogáfico sobre a História das finanças',
-    description: 'De Medici a BTC',
-    technologies: ['Blockchain', 'IoT', 'IA'],
+    image: '/images/project-4.webp',
+    title: 'History of Finance - Medici to BTC',
+    description:
+      'Prever crises exige entender os ciclos históricos. Criei um infográfico que mapeia bolhas financeiras ao longo dos séculos — para facilitar previsões mais informadas.',
+    technologies: ['História', 'Finanças', 'Bolhas'],
     links: {
       preview: '',
     },
   },
   {
-    image: '',
-    title: 'Ex-Aluno do Mês Março 2024',
-    description: 'Anglia Ruskin University',
-    technologies: ['Blockchain', 'IoT', 'IA'],
+    image: '/images/project-4.webp',
+    title: 'Reconhecimentos da Anglia Ruskin University',
+    description:
+      'Entre 133 mil alumni, a universidade distingue mensalmente quem se destaca globalmente. Fui nomeado Alumni do Mês de março de 2024 e estou nomeado para Alumni do Ano.',
+    technologies: ['Alumni do Mês', 'Anglia Ruskin University', 'Mestrado'],
     links: {
       preview: '',
+    },
+  },
+  {
+    image: '', // You can add an OG image later if available
+    title: 'Currency Converter Pro',
+    description:
+      'Em Angola, acompanhar as flutuações cambiais é essencial — mas muitas ferramentas são lentas ou pagas. Criei uma app leve e gratuita que mostra mais de 100 moedas em tempo real, com gráficos históricos para análise rápida e informada.',
+    technologies: ['Vibe Coding', 'APIs de Câmbio', 'Gráficos Interativos'],
+    links: {
+      preview: 'https://currency-converter-pro.pages.dev/',
+    },
+  },
+  {
+    image: '',
+    title: 'Dict – Dicionário Inteligente',
+    description:
+      'Precisava de um dicionário rápido que fosse além das definições. Desenvolvi uma app onde qualquer pessoa pode procurar palavras, ver sinónimos, antónimos e ouvir a pronúncia correta — tudo num só lugar.',
+    technologies: ['Vibe Coding', 'Lexicografia', 'Áudio Web'],
+    links: {
+      preview: 'https://dict-5qo.pages.dev/',
+    },
+  },
+  {
+    image: '',
+    title: 'ISC: Guardiãs da Igualdade de Género',
+    description:
+      'Faltava documentação prática sobre auditoria de género nas Instituições Superiores de Controlo dos PALOP. Elaborei um relatório de investigação adoptado numa reunião internacional entre Angola e outros países lusófonos, promovendo o empoderamento feminino na governança pública.',
+    technologies: [
+      'Auditoria de Género',
+      'Cooperação Internacional',
+      'Políticas Públicas',
+    ],
+    links: {
+      preview: 'https://tca-es5.pages.dev/',
     },
   },
 ] as const;
@@ -138,14 +178,15 @@ export const experiencesData = [
     title: 'Fundador',
     company: 'Gestão Otimização e Aceleração Tecnológica',
     description:
-      'GOAT é uma Startup em Angola fundada por Carlos Araújo. Oferecemos expertise em consultoria de contratação pública, elaboração de planos de negócios, e estudos de viabilidade. Também desenvolvemos aplicativos web como goat.africa e bull.africa, com mais de 5mil visitantes por mês. ',
+      'Startup angolana que combina consultoria em contratação pública com desenvolvimento de aplicações digitais (goat.africa, bull.africa). Mais de 6000 utilizadores mensais.',
     period: 'Dez 2021 - Presente',
     technologies: ['Consultoria', 'Apps', 'I.A.'],
   },
   {
     title: 'Técnico Superior',
     company: 'Tribunal de Contas de Angola',
-    description: `Auditor público na fiscalização preventiva e na fiscalização sucessiva do TCA.  Bolseiro e delegado de turma para o curso em Finanças Públicas co-financiado pela UE e a PNUD (PRO-PALOP). Ajudou introduzir Auditorias de Desempenho (ISSAI 300) em colaboração com a Organização Internacional de Instituições Superiores de Controle (INTOSAI). `,
+    description:
+      'Auditoria preventiva e sucessiva. Introduzi Auditorias de Desempenho (ISSAI 300) em colaboração com a INTOSAI. Bolseiro e delegado de turma da pós-graduação em Finanças Públicas, PRO-PALOP (UE/PNUD).',
     period: 'Jan 2020 - Nov 2021',
     technologies: [
       'Auditoria do Sector Público',

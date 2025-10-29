@@ -33,7 +33,7 @@ export const Intro = () => {
             <span className="relative flex size-2 rounded-full bg-green-400"></span>
           </span>
           <span className="font-mono text-sm">
-            Disponível para colaborações
+            Disponível para colaborações de alto impacto
           </span>
         </Link>
       </motion.div>
@@ -42,11 +42,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Serviços de{' '}
+        Consultoria em{' '}
         <span className="bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent">
-          consultoria
+          inteligência artificial
         </span>{' '}
-        em inteligência artificial
+        e finanças públicas
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -56,9 +56,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        Ex-Técnico Superior do Tribunal de Contas, autor, e criador de programas
-        de inteligência artificial. Também presta serviços de elaboração de
-        planos de negócios e estudos de viabilidade.
+        Ex-Técnico Superior do Tribunal de Contas de Angola | Fundador da GOAT |
+        Criador de ferramentas open source usadas por milhares.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

@@ -19,8 +19,8 @@ export const Experience = () => {
       className="my-10 scroll-mt-28 md:mb-20"
     >
       <SectionHeading
-        heading="A Minha Experiência"
-        content="Especialista em finanças públicas, tecnologia e gestão empresarial."
+        heading="Experiência-Chave"
+        content="Fundador de startup, e ex-técnico do Tribunal de Contas"
       />
       <div className="relative max-w-screen-md">
         {experiencesData.map(
