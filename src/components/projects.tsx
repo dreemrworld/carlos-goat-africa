@@ -25,10 +25,7 @@ export const Projects = () => {
           once: true,
         }}
       >
-        <SectionHeading
-          heading="Realizações e Projectos"
-          content="Carlos Araújo é autor, orador, investigador e programador."
-        />
+        <SectionHeading heading="Realizações e Projetos" content="2023-2025" />
       </motion.div>
       <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
         {projectsData.map((project, index) => (

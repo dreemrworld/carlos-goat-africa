@@ -18,18 +18,17 @@ export const About = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <SectionHeading heading="Sobre Mim" />
+      <SectionHeading heading="Sobre mim" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          Sou Carlos Araújo — especialista em governança pública e tecnologia,
-          com experiência em auditoria, IA e empreendedorismo. O meu trabalho de
+          O Carlos (Pingo) Araújo é Mestre em Gestão Empresarial, Pós-Graduado
+          em Finanças Públicas e Licenciado em Empreendedorismo. Mora em Angola
+          onde presta serviço de consultoria empresarial e faz pesquisa e
+          desenvolvimento de aplicações de inteligência artificial. A sua
           investigação em auditoria pública foi distinguido pelo Tribunal de
-          Contas Europeu. Apresentei em conferências internacionais em
+          Contas Europeu e apresentou em conferências internacionais em
           Manchester, Winchester e além, sobre blockchain, finanças públicas e o
-          futuro da tecnologia. Mestre em Gestão Empresarial, Pós-Graduação em
-          Finanças Públicas e Licenciado em Empreendedorismo. Vivo em África
-          onde desenvolvo soluções que colocam a ética, criatividade e inovação
-          no centro.
+          futuro da tecnologia.
         </p>
       </div>
       <Skills />

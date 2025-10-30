@@ -176,9 +176,9 @@ export const projectsData = [
 export const experiencesData = [
   {
     title: 'Fundador',
-    company: 'Gestão Otimização e Aceleração Tecnológica',
+    company: 'Gestão Otimização e Aceleração Tecnológica (GOAT)',
     description:
-      'Startup angolana que combina consultoria em contratação pública com desenvolvimento de aplicações digitais (goat.africa, bull.africa). Mais de 6000 utilizadores mensais.',
+      'Anteriormente conhecido como Dreemrworld FZCO, Consulting Carlos Araújo (CCA) e Angowebsites, GOAT é uma Startup angolana que combina consultoria com desenvolvimento de aplicações-web (WebApp) populares como goat.africa e bull.africa - 6mil visitantes novos no mês de Outubro 2025.',
     period: 'Dez 2021 - Presente',
     technologies: ['Consultoria', 'Apps', 'I.A.'],
   },
@@ -186,7 +186,7 @@ export const experiencesData = [
     title: 'Técnico Superior',
     company: 'Tribunal de Contas de Angola',
     description:
-      'Auditoria preventiva e sucessiva. Introduzi Auditorias de Desempenho (ISSAI 300) em colaboração com a INTOSAI. Bolseiro e delegado de turma da pós-graduação em Finanças Públicas, PRO-PALOP (UE/PNUD).',
+      'Auditor de contratos públicos, financiamentos externos e de orgãos públicos. Trabalho na introdução em Angola de auditorias de desempenho (ISSAI 300) em colaboração com a Organização Internacional de Instituições Superiores de Controle (INTOSAI). Bolseiro e delegado de turma da pós-graduação em Finanças Públicas do Programa PALOP-TL co-financiado pela UE/PNUD, destinada aos técnicos e juizes do Tribunal de Contas, Ministérios das Finanças e da Assembleia Nacional.',
     period: 'Jan 2020 - Nov 2021',
     technologies: [
       'Auditoria do Sector Público',
