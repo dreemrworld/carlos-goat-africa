@@ -21,11 +21,11 @@ export const About = () => {
       <SectionHeading heading="Sobre mim" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          O Carlos (Pingo) Araújo é Mestre em Gestão Empresarial, Pós-Graduado
-          em Finanças Públicas e Licenciado em Empreendedorismo. Mora em Angola
+          O Carlos Araújo é Mestre em Gestão Empresarial, Pós-Graduado em
+          Finanças Públicas e Licenciado em Empreendedorismo. Mora em Angola
           onde presta serviço de consultoria empresarial e faz pesquisa e
-          desenvolvimento de aplicações de inteligência artificial. A sua
-          investigação em auditoria pública foi distinguido pelo Tribunal de
+          desenvolvimento de aplicações de inteligência artificial. Sua
+          investigação em auditoria pública foi distinguida pelo Tribunal de
           Contas Europeu e apresentou em conferências internacionais em
           Manchester, Winchester e além, sobre blockchain, finanças públicas e o
           futuro da tecnologia.

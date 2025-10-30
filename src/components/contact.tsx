@@ -32,7 +32,7 @@ export const Contact = () => {
         heading="Entrar em Contacto"
         content={
           <>
-            Contacte-me diretamente por email{' '}
+            Entre em contacto por email{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"

@@ -18,7 +18,7 @@ export const siteConfig = {
     'HTML',
     'CSS',
     'Portfólio',
-    'Projectos',
+    'Projetos',
     'Website',
     'Aplicações Web',
     'Programador',

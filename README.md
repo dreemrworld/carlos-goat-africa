@@ -1,10 +1,10 @@
 # Portfólio Carlos Araújo
 
-Um website de portfólio de programador moderno e minimalista de página única que apresenta projectos, experiência e competências. Construído com Next.js, com animações suaves e um design limpo.
+Um website de portfólio de programador moderno e minimalista de página única que apresenta projetos, experiência e competências. Construído com Next.js, com animações suaves e um design limpo.
 
 ## 🚀 Demonstração ao Vivo
 
-Visite a versão ao vivo em: [https://dev.goat.africa](https://dev.goat.africa)
+Visite a versão ao vivo em: [https://carlos.goat.africa](https://carlos.goat.africa)
 
 ![og-image](public/images/og-image.jpg)
 
@@ -111,7 +111,7 @@ src/
 │   ├── experience.tsx      # Experiência profissional
 │   ├── header.tsx          # Cabeçalho de navegação
 │   ├── intro.tsx           # Secção hero/intro
-│   ├── projects.tsx        # Apresentação de projectos
+│   ├── projects.tsx        # Apresentação de projetos
 │   └── ...                 # Outros componentes UI
 ├── hooks/
 │   └── use-section-in-view.ts  # Hook de observador de intersecção
