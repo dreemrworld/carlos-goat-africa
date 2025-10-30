@@ -25,56 +25,45 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/chat-bull.png',
-    title: 'Chat Bull - chat.bull.africa',
-    description:
-      'Devido à falta de ferramentas acessíveis para jovens empreendedores de IA em África, criou uma aplicação social gratuita e de código aberto, que qualquer pessoa pode auditar, copiar ou melhorar. Já impactou positivamente milhares de pessoas.',
-
-    technologies: ['Next.js 15', 'AI-SDK 5', 'Código Aberto', 'Chat de IA'],
-    links: {
-      preview: 'https://github.com/dreemrworld/chat.bull.africa',
-    },
-  },
-  {
-    image: '/images/nota-bene.png',
-    title: 'Nota Bene – nb.bull.africa',
-    description:
-      'As soluções em nuvem comprometem a privacidade dos seus apontamentos de investigação. Desenvolveu uma app que guarda tudo localmente, no dispositivo do utilizador, sem usar a nuvem. Os dados ficam mais seguros, privados — e o código é aberto.',
-    technologies: ['React', 'Vite', 'TipTap', 'Cloudflare'],
-    links: {
-      preview: 'https://nb.bull.africa',
-    },
-  },
-  {
-    image: '/images/editor-html.png',
-    title: 'Editor de HTML - html.bull.africa',
-    description:
-      'Dependia de um editor online cheio de publicidade. Criou a sua própria versão: limpa, funcional e de código aberto, sem anúncios e com total transparência.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Cloudflare'],
-    links: {
-      preview: 'https://github.com/dreemrworld/html-wysiwyg',
-    },
-  },
-  {
-    image: '/images/chat-goat.png',
-    title: 'Chat GOAT- chat.goat.africa',
-    description:
-      'Para construir um assistente de IA verdadeiramente útil, criou o Pingo AI: uma aplicação completa, com autenticação e base de dados própria, capaz de responder, raciocinar, traduzir, gerar documentos e programar. É usada por 3 mil pessoas por mês.',
-    technologies: ['Next.js', 'AI-SDK', 'Vercel'],
-    links: {
-      preview: 'https://chat.goat.africa',
-    },
-  },
-  {
     image: '/images/auditoria-publica.png',
     title:
       'Auditoria do Sector Público: ferramentas digitais para aumentar a eficiência e eficácia',
     description:
-      'A auditoria pública carece de inovação metodológica. Desenvolveu uma investigação pioneira sobre auditorias de desempenho com tecnologias emergentes. Foi nomeada para o prémio de melhor pesquisa pelo Tribunal de Contas Europeu e orientada pelo ex-presidente da instituição.',
-    technologies: ['Blockchain', 'IoT', 'IA'],
+      'A auditoria pública carece de inovação metodológica. Desenvolveu uma investigação pioneira sobre auditorias de desempenho com tecnologias emergentes. Foi nomeada para o prémio de melhor pesquisa pelo Tribunal de Contas Europeu.',
+    technologies: ['Blockchain', 'Auditoria', 'IA'],
     links: {
       preview:
         'https://www.agora-parl.org/sites/default/files/palop-publications/PALOP-TL%202022%20Volume%20II.pdf',
+    },
+  },
+  {
+    image: '/images/ecobate.png',
+    title: 'European Conference on Banking and Economy 2024',
+    description:
+      'É necessário mais diálogo sobre as fintechs emergentes. Participou como palestrante convidado na ECOBATE 2024, realizada na University of Winchester e organizada pela Association for Research on Banking and the Economy (ARBE) e pelo Centre for Banking, Finance and Sustainable Development (CBFSD) da University of Southampton.',
+    technologies: ['Fintech', 'Banca', 'Economia'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '/images/isc-2023.png',
+    title: 'International Scientific Conference on Blockchain 2023',
+    description:
+      'O potencial do blockchain em governança pública merece mais atenção. Apresentou as suas ideias na International Scientific Conference on Blockchain em Manchester organizado pela British Blockchain Association (BBA).',
+    technologies: ['Blockchain', 'Auditoria', 'IA'],
+    links: {
+      preview: '',
+    },
+  },
+  {
+    image: '/images/aru.png',
+    title: 'Reconhecimentos da Anglia Ruskin University',
+    description:
+      'Entre 133 mil alumni, a universidade distingue mensalmente quem se destaca globalmente. Foi nomeado Alumni do Mês de março de 2024 e está nomeado para Alumni do Ano.',
+    technologies: ['Alumni do Mês', 'ARU', 'Mestrado'],
+    links: {
+      preview: '',
     },
   },
   {
@@ -98,28 +87,49 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/ecobate.png',
-    title: 'ECOBATE 2024',
+    image: '/images/chat-bull.png',
+    title: 'Chat Bull - chat.bull.africa',
     description:
-      'É necessário mais diálogo entre África e a Europa sobre finanças e tecnologia. Participou como palestrante convidado na European Conference on Banking and the Economy 2024, em Winchester.',
-    technologies: ['Blockchain', 'IoT', 'IA'],
+      'Devido à falta de ferramentas acessíveis para startups de IA em África, criou um chatbot moderno, gratuito e de código aberto, com armazenamento local, pesquisa na internet e capacidade de ler respostas em voz alta. Já impactou milhares de pessoas.',
+
+    technologies: ['Next.js', 'IA', 'Cloudflare'],
     links: {
-      preview: '',
+      preview: 'https://github.com/dreemrworld/chat.bull.africa',
     },
   },
   {
-    image: '/images/isc-2023.png',
-    title: 'ISC 2023',
+    image: '/images/chat-goat.png',
+    title: 'Chat GOAT- chat.goat.africa',
     description:
-      'O potencial do blockchain em governança pública merece mais atenção. Apresentou as suas ideias na International Scientific Conference on Blockchain em Manchester.',
-    technologies: ['Blockchain', 'IoT', 'IA'],
+      'Para construir um assistente de IA verdadeiramente útil, criou o Pingo AI: uma aplicação completa, com autenticação e base de dados própria, capaz de responder, raciocinar, traduzir, gerar documentos e programar. É usada por 3 mil pessoas por mês.',
+    technologies: ['Next.js', 'IA', 'Vercel'],
     links: {
-      preview: '',
+      preview: 'https://chat.goat.africa',
+    },
+  },
+  {
+    image: '/images/nota-bene.png',
+    title: 'Nota Bene – nb.bull.africa',
+    description:
+      'As soluções em nuvem comprometem a privacidade dos seus apontamentos de investigação. Desenvolveu uma app que guarda tudo localmente, no dispositivo do utilizador, sem usar a nuvem. Os dados ficam mais seguros, privados — e o código é aberto.',
+    technologies: ['React', 'Vite', 'TipTap', 'Cloudflare'],
+    links: {
+      preview: 'https://nb.bull.africa',
+    },
+  },
+  {
+    image: '/images/editor-html.png',
+    title: 'Editor de HTML - html.bull.africa',
+    description:
+      'Dependia de um editor online cheio de publicidade. Criou a sua própria versão: limpa, funcional e de código aberto, sem anúncios e com total transparência.',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Cloudflare'],
+    links: {
+      preview: 'https://github.com/dreemrworld/html-wysiwyg',
     },
   },
   {
     image: '/images/history-finance.png',
-    title: 'History of Finance - Medici to BTC',
+    title: 'History of Finance: from Medici to BTC',
     description:
       'Prever crises exige entender os ciclos históricos. Criou um infográfico que mapeia bolhas financeiras ao longo dos séculos — para facilitar previsões mais informadas.',
     technologies: ['História', 'Finanças', 'Bolhas'],
@@ -128,18 +138,8 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/aru.png',
-    title: 'Reconhecimentos da Anglia Ruskin University',
-    description:
-      'Entre 133 mil alumni, a universidade distingue mensalmente quem se destaca globalmente. Foi nomeado Alumni do Mês de março de 2024 e está nomeado para Alumni do Ano.',
-    technologies: ['Alumni do Mês', 'Anglia Ruskin University', 'Mestrado'],
-    links: {
-      preview: '',
-    },
-  },
-  {
     image: '/images/currency.png',
-    title: 'Currency Converter Pro',
+    title: 'Conversor de moeda',
     description:
       'Em Angola, acompanhar as flutuações cambiais é essencial mas muitas ferramentas são lentas ou pagas. Criou uma app leve e gratuita que mostra mais de 100 moedas em tempo real, com gráficos históricos para análise rápida e informada.',
     technologies: ['Vibe Coding', 'APIs de Câmbio', 'Gráficos Interativos'],
@@ -169,6 +169,26 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://tca-es5.pages.dev/',
+    },
+  },
+  {
+    image: '/images/loja.png',
+    title: 'Loja online de tecnologia',
+    description:
+      'Devido à falta de templates de e‑commerce simples, completos e gratuitos para mercados emergentes, criou uma loja demo funcional com HTML, CSS, JavaScript e API integrada — incluindo página de checkout realista. É um modelo pronto a usar por qualquer empreendedor que queira vender produtos online sem depender de plataformas pagas.',
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    links: {
+      preview: 'https://shopgoat.pages.dev',
+    },
+  },
+  {
+    image: '/images/catalogo.png',
+    title: 'Catálogo digital - shop.goat.africa',
+    description:
+      'Gerir um catálogo de produtos em Angola é desafiante sem soluções acessíveis. Desenvolveu um website de catálogo que se atualiza automaticamente a partir de uma folha do Google Sheets. Basta editar a tabela para que o site reflita as mudanças em tempo real, tornando-o ideal para pequenos negócios em contextos de recursos limitados.',
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    links: {
+      preview: 'https://shop.goat.africa',
     },
   },
 ] as const;

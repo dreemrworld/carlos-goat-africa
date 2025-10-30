@@ -6,7 +6,7 @@ Um website de portfólio de programador moderno e minimalista de página única 
 
 Visite a versão ao vivo em: [https://carlos.goat.africa](https://carlos.goat.africa)
 
-![og-image](public/images/og-image.jpg)
+![og-image](public/images/og-image.png)
 
 ## ✨ Funcionalidades
 

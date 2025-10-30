@@ -1,12 +1,12 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
-  title: 'Carlos Araújo | Programador Full Stack',
+  title: 'Carlos Araújo | Portfólio',
   description:
-    'Olá, sou o Carlos Araújo, um empreendedor tecnológico em Angola. Bem-vindo ao meu perfil de programador. Vamos conectar.',
+    'Fundador da startup angolana Gestão Otimização e Aceleração Tecnológica (GOAT). Disponível para consultoria técnica, transformação digital e desenvolvimento de software.',
   keywords: [
     'Carlos Araújo',
-    'Programador Full Stack',
+    'Programador ',
     'Angola',
     'React',
     'Next.js',
@@ -21,10 +21,12 @@ export const siteConfig = {
     'Projetos',
     'Website',
     'Aplicações Web',
-    'Programador',
+    'Consultoria empresarial',
     'Código',
     'Programação',
     'Entusiasta da Tecnologia',
+    'Inteligência Artificial',
+    'Auditoria Pública',
   ],
   url: env.SITE_URL || 'https://carlos.goat.africa',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',

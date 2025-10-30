@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.title, // Often the same as the main title
     images: [
       {
-        url: `${siteConfig.url}/images/og-image.jpg`, // Absolute URL to your OG image
+        url: `${siteConfig.url}/images/og-image.png`, // Absolute URL to your OG image
         width: 1200, // Recommended width
         height: 630, // Recommended height
         alt: siteConfig.title, // Alt text for accessibility and SEO
@@ -48,14 +48,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image', // Use 'summary_large_image' for a prominent image
     title: siteConfig.title,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/images/og-image.jpg`], // Absolute URL to your OG image
+    images: [`${siteConfig.url}/images/og-image.png`], // Absolute URL to your OG image
   },
 };
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans', fonts)}>
-        <div className="fixed left-0 top-0 z-[-2] size-full bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)] dark:bg-gray-950 dark:bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.05)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]" />
+        <div className="fixed left-0 top-0 z-[-2] size-full bg-white dark:bg-gray-950">
+          <div className="absolute size-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_30%,transparent_100%)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)]" />
+        </div>
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
             {children}
