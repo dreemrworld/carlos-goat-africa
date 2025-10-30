@@ -47,4 +47,8 @@ sitemap-*.xml
 /blob-report/
 /playwright/.cache/
 
+# open-next / cloudflare
+.open-next/
+cloudflare-env.d.ts
+
 /memory-bank

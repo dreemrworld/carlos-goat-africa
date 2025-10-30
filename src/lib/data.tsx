@@ -25,7 +25,7 @@ export const links = [
 
 export const projectsData = [
   {
-    image: 'https://opengraph.githubassets.com/1/dreemrworld/chat.bull.africa',
+    image: '/images/chat-bull.png',
     title: 'Chat Bull - chat.bull.africa',
     description:
       'Falta de ferramentas acessíveis para jovens empreendedores de IA em África. Criei uma aplicação social, gratuita e open source, que qualquer pessoa pode auditar, copiar ou melhorar. Já impactou positivamente milhares de estudantes e empreendedores.',
@@ -36,7 +36,7 @@ export const projectsData = [
     },
   },
   {
-    image: 'https://opengraph.githubassets.com/1/dreemrworld/nota-bene',
+    image: '/images/nota-bene.png',
     title: 'Nota Bene – nb.bull.africa',
     description:
       'As soluções em nuvem comprometem a privacidade dos meus apontamentos de investigação. Desenvolvi uma app que guarda tudo localmente, no dispositivo do utilizador, sem usar a nuvem. Os dados ficam mais seguros, privados — e o código é aberto.',
@@ -46,7 +46,7 @@ export const projectsData = [
     },
   },
   {
-    image: 'https://opengraph.githubassets.com/1/dreemrworld/html-wysiwyg',
+    image: '/images/editor-html.png',
     title: 'Editor de HTML - html.bull.africa',
     description:
       'Dependia de um editor online cheio de publicidade. Criei a minha própria versão: limpa, funcional e de código abertom, sem anúncios e com total transparência.',
@@ -56,7 +56,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/chat-goat.png',
     title: 'Chat GOAT- chat.goat.africa',
     description:
       'Queria construir um assistente de IA verdadeiramente útil. Criei o Pingo AI: uma aplicação completa, com autenticação e base de dados própria, capaz de responder, raciocinar, traduzir, gerar documentos e programar. É usada por 3 mil pessoas por mês.',
@@ -66,7 +66,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/auditoria-publica.png',
     title:
       'Auditoria do Sector Público: ferramentas digitais para aumentar a eficiência e eficácia',
     description:
@@ -78,7 +78,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/cinvestec.png',
     title: 'Autor',
     description:
       'Há poucas vozes angolanas em debates técnicos sobre economia. Escrevi três artigos de opinião para o CINVESTEC. Foram lidos por cerca de 4 600 pessoas.',
@@ -88,7 +88,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/emerging-tech.png',
     title: 'Emerging Tech 2035',
     description:
       'Poucos em África discutem o futuro tecnológico com clareza. Criei um infográfico com a minha visão das tecnologias que serão comuns daqui a 10 anos, e partilhei com todos.',
@@ -98,7 +98,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/ecobate.png',
     title: 'ECOBATE 2024',
     description:
       'Precisamos de mais diálogo entre África e a Europa sobre finanças e tecnologia. Participei como palestrante convidado na European Conference on Banking and the Economy 2024, em Winchester.',
@@ -108,7 +108,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/isc-2023.png',
     title: 'ISC 2023',
     description:
       'O potencial do blockchain em governança pública merece mais atenção. Apresentei as minhas ideias na International Scientific Conference on Blockchain em Manchester.',
@@ -118,7 +118,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/history-finance.png',
     title: 'History of Finance - Medici to BTC',
     description:
       'Prever crises exige entender os ciclos históricos. Criei um infográfico que mapeia bolhas financeiras ao longo dos séculos — para facilitar previsões mais informadas.',
@@ -128,7 +128,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4.webp',
+    image: '/images/aru.png',
     title: 'Reconhecimentos da Anglia Ruskin University',
     description:
       'Entre 133 mil alumni, a universidade distingue mensalmente quem se destaca globalmente. Fui nomeado Alumni do Mês de março de 2024 e estou nomeado para Alumni do Ano.',
@@ -138,7 +138,7 @@ export const projectsData = [
     },
   },
   {
-    image: '', // You can add an OG image later if available
+    image: '/images/currency.png',
     title: 'Currency Converter Pro',
     description:
       'Em Angola, acompanhar as flutuações cambiais é essencial — mas muitas ferramentas são lentas ou pagas. Criei uma app leve e gratuita que mostra mais de 100 moedas em tempo real, com gráficos históricos para análise rápida e informada.',
@@ -148,8 +148,8 @@ export const projectsData = [
     },
   },
   {
-    image: '',
-    title: 'Dict – Dicionário Inteligente',
+    image: '/images/dictionary.png',
+    title: 'Dicionário Inteligente',
     description:
       'Precisava de um dicionário rápido que fosse além das definições. Desenvolvi uma app onde qualquer pessoa pode procurar palavras, ver sinónimos, antónimos e ouvir a pronúncia correta — tudo num só lugar.',
     technologies: ['Vibe Coding', 'Lexicografia', 'Áudio Web'],
@@ -158,7 +158,7 @@ export const projectsData = [
     },
   },
   {
-    image: '',
+    image: '/images/isc-genero.png',
     title: 'ISC: Guardiãs da Igualdade de Género',
     description:
       'Faltava documentação prática sobre auditoria de género nas Instituições Superiores de Controlo dos PALOP. Elaborei um relatório de investigação adoptado numa reunião internacional entre Angola e outros países lusófonos, promovendo o empoderamento feminino na governança pública.',
