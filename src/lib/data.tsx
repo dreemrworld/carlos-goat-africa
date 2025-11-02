@@ -43,7 +43,8 @@ export const projectsData = [
       'É necessário mais diálogo sobre as fintechs emergentes. Participou como palestrante convidado na ECOBATE 2024, realizada na University of Winchester e organizada pela Association for Research on Banking and the Economy (ARBE) e pelo Centre for Banking, Finance and Sustainable Development (CBFSD) da University of Southampton.',
     technologies: ['Fintech', 'Banca', 'Economia'],
     links: {
-      preview: '',
+      preview:
+        'https://www.linkedin.com/posts/university-of-winchester_international-names-in-banking-and-finance-activity-7173608537435189248-D4ZD/',
     },
   },
   {
@@ -53,7 +54,8 @@ export const projectsData = [
       'O potencial do blockchain em governança pública merece mais atenção. Apresentou as suas ideias na International Scientific Conference on Blockchain em Manchester organizado pela British Blockchain Association (BBA).',
     technologies: ['Blockchain', 'Auditoria', 'IA'],
     links: {
-      preview: '',
+      preview:
+        'https://jbba.scholasticahq.com/article/74923-conference-proceedings-5th-blockchain-international-scientific-conference-ics2023',
     },
   },
   {
@@ -63,7 +65,8 @@ export const projectsData = [
       'Entre 133 mil alumni, a universidade distingue mensalmente quem se destaca globalmente. Foi nomeado Alumni do Mês de março de 2024 e está nomeado para Alumni do Ano.',
     technologies: ['Alumni do Mês', 'ARU', 'Mestrado'],
     links: {
-      preview: '',
+      preview:
+        'https://www.aru.ac.uk/graduation-and-alumni/alumni-stories/alumni-of-the-month/2024/carlos-alberto-da-conceicao-araujo',
     },
   },
   {
@@ -83,7 +86,7 @@ export const projectsData = [
       'Poucos em África discutem o futuro tecnológico com clareza. Criou um infográfico com a sua visão das tecnologias que serão comuns daqui a 10 anos, e partilhou com todos.',
     technologies: ['Robótica', 'IA', 'Futurismo'],
     links: {
-      preview: '',
+      preview: '/images/emerging-tech-2035-carlos.png',
     },
   },
   {
@@ -94,7 +97,7 @@ export const projectsData = [
 
     technologies: ['Next.js', 'IA', 'Cloudflare'],
     links: {
-      preview: 'https://github.com/dreemrworld/chat.bull.africa',
+      preview: 'https://chat.bull.africa',
     },
   },
   {
@@ -134,7 +137,8 @@ export const projectsData = [
       'Prever crises exige entender os ciclos históricos. Criou um infográfico que mapeia bolhas financeiras ao longo dos séculos — para facilitar previsões mais informadas.',
     technologies: ['História', 'Finanças', 'Bolhas'],
     links: {
-      preview: '',
+      preview:
+        'https://www.linkedin.com/feed/update/urn:li:activity:7390346332034650112/',
     },
   },
   {
@@ -206,7 +210,7 @@ export const experiencesData = [
     title: 'Técnico Superior',
     company: 'Tribunal de Contas de Angola',
     description:
-      'Auditor de contratos públicos, financiamentos externos e de órgãos públicos. Trabalhou na introdução em Angola de auditorias de desempenho em colaboração com a Organização Internacional de Instituições Superiores de Controle (INTOSAI). Bolseiro e delegado de turma da pós-graduação em Finanças Públicas do Programa PALOP-TL co-financiado pela UE/PNUD, destinada aos técnicos e juízes do Tribunal de Contas, Ministérios das Finanças e da Assembleia Nacional.',
+      'Auditor de contratos públicos, financiamentos externos e de órgãos públicos. Trabalhou na introdução em Angola de auditorias de desempenho em colaboração com a Organização Internacional de Instituições Superiores de Controle (INTOSAI). Bolseiro e delegado de turma da pós-graduação em Finanças Públicas do Programa PALOP-TL co-financiado pela UE/PNUD, destinada aos técnicos e juízes do Tribunal de Contas, Ministério das Finanças e da Assembleia Nacional.',
     period: 'Jan 2020 - Nov 2021',
     technologies: [
       'Auditoria do Sector Público',

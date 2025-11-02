@@ -1,0 +1,129 @@
+CARLOS ALBERTO DA CONCEIÇÃO ARAÚJO
+Founder & AI Developer | Public Finance Specialist
+Luanda, Angola | carlos@goat.africa | +244 925 604 727
+https://carlos.goat.africa | https://github.com/dreemrworld | https://www.linkedin.com/in/carlos-araújo-6534b029b/
+
+PROFESSIONAL SUMMARY
+Multidisciplinary expert bridging public sector governance, artificial intelligence, and entrepreneurial technology. Former Senior Technician at Angola's Court of Auditors with advanced training in public finance (EU/PNUD PRO-PALOP). Founder of GOAT, an Angolan startup delivering AI-powered web applications used by thousands monthly. Recognized researcher (European Court of Auditors shortlist) and international speaker on blockchain, digital transformation, and the future of African tech. Holds an MBA, Postgraduate in Public Finance, and a Bachelor's in Entrepreneurship.
+
+CORE COMPETENCIES
+Artificial Intelligence: LLM integration, AI agents, RAG, document generation, multilingual reasoning
+Web Development: Next.js, React, Vite, HTML5/CSS3/JS, Cloudflare, Vercel
+Public Sector Innovation: Performance auditing (ISSAI 300), contract oversight, EU-funded project implementation
+Entrepreneurship: Business planning, feasibility studies, lean product development
+Data & Privacy: Local-first architecture, open-source software, GDPR-aligned design
+Languages: Portuguese (native), English (fluent), Spanish (conversational), Dutch (basic)
+
+PROFESSIONAL EXPERIENCE
+
+Founder & CEO
+Gestão Otimização e Aceleração Tecnológica (GOAT)
+Luanda, Angola
+December 2021 - Present
+
+- Founded and scaled a technology startup delivering AI-powered web applications to African markets
+- Built open-source AI/web applications serving 6,000+ unique users/month (October 2025)
+- Led remote development team and collaborated with international partners on AI projects
+- Delivered technical consulting in public procurement, digital transformation, and AI strategy
+- Developed flagship products: Chat Bull, Pingo AI / Chat GOAT, Nota Bene, HTML Editor, and e-commerce templates
+- Managed end-to-end product lifecycle from concept to deployment in distributed environments
+
+Senior Technician (Auditor)
+Tribunal de Contas de Angola
+Luanda, Angola
+January 2020 - November 2021
+
+- Conducted preventive and successive audits of public contracts, external financing, and state institutions
+- Pioneered Angola's adoption of Performance Auditing (ISSAI 300) in collaboration with INTOSAI
+- Served as scholarship recipient and class delegate in EU/PNUD-funded PRO-PALOP Public Finance Program
+- Collaborated with international experts and participated in cross-border audit initiatives
+
+EDUCATION
+
+MBA in Business Management
+Anglia Ruskin University
+Cambridge, United Kingdom
+2024
+
+Postgraduate Diploma in Public Finance
+PRO-PALOP Program (EU/PNUD-funded)
+Portugal/Angola
+2020 - 2021
+
+Bachelor of Entrepreneurship
+Cape Peninsula University of Technology
+Cape Town, South Africa
+Completed
+
+KEY ACHIEVEMENTS & PROJECTS
+
+Research Excellence
+- Shortlisted for Best Public Audit Research by the European Court of Auditors (2023)
+- Authored gender audit guidelines adopted in PALOP Supreme Audit Institutions (SAI) cooperation forum
+
+International Speaking
+- Invited speaker at European Conference on Banking & the Economy (ECOBATE 2024), Winchester, UK
+- Presented on blockchain in public governance at International Scientific Conference on Blockchain, Manchester (2023)
+
+Publications
+- Published 3 policy opinion articles on Angolan economic reform (CINVESTEC, ~4,600 readers)
+
+AI Applications
+- Chat GOAT (chat.goat.africa): Full-stack AI assistant with authentication, database, and multimodal capabilities (3,000+ monthly users)
+- Chat Bull (chat.bull.africa): Open-source AI chatbot with local storage, web search, and multi-URL support
+- Nota Bene (nb.bull.africa): Privacy-first note-taking app storing data locally only
+
+Web Development Tools
+- HTML Editor (html.bull.africa): Ad-free, open-source alternative to online HTML editors
+- Currency Converter: Real-time converter for 100+ currencies with historical charts
+- Smart Dictionary: Multi-feature dictionary with synonyms, antonyms, and audio pronunciation
+
+E-Commerce Solutions
+- Digital Catalog (shop.goat.africa): Google Sheets-driven product catalog
+- Online Store Template: Complete e-commerce demo with HTML/CSS/JS + checkout
+
+Research & Infographics
+- Emerging Tech 2035: Vision of future technologies for African markets
+- History of Finance: Financial bubbles analysis from Medici to Bitcoin
+
+TECHNICAL SKILLS
+
+AI/ML
+- Next.js AI SDK, LLM APIs, Context Engineering, AI Agents, RAG
+
+Frontend
+- React, Vite, Tailwind, TipTap, JavaScript/TypeScript, Assistant-UI, AI Elements
+
+Backend
+- Vercel, Cloudflare Workers, BetterAuth, NextAuth, Neon, IndexDB, MongoDB, Postgres, Drizzle, Supabase, Clerk
+
+Tools & Platforms
+- Git, GitHub, Cline, VS Codium, OpenRouter, Linux Debian, Ubuntu, PopOS!, Rest API
+
+CERTIFICATIONS & AWARDS
+
+- European Court of Auditors Research Recognition (2023)
+- Anglia Ruskin University Alumni of the Month (March 2024)
+- EU/PNUD PRO-PALOP Scholarship (2020-2021)
+- INTOSAI Performance Auditing Implementation (Angola)
+
+PROFESSIONAL AFFILIATIONS
+
+- Association for Research on Banking and the Economy (ARBE)
+- British Blockchain Association (BBA)
+- International Organization of Supreme Audit Institutions (INTOSAI)
+
+LANGUAGES
+
+- Portuguese (Native)
+- English (Fluent)
+- Spanish (Conversational)
+- Dutch (Basic)
+
+AVAILABILITY
+
+Open to remote consulting engagements, technical advisory roles, AI development contracts, and international collaboration in public sector innovation, digital transformation, and ethical AI for emerging markets.
+
+REFERENCES
+
+Available upon request.

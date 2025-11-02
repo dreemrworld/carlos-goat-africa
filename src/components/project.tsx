@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { projectsData } from '@/lib/data';
 
@@ -31,7 +30,10 @@ export const Project = ({ project, index }: TProps) => {
   const { image, title, description, technologies, links } = project;
 
   return (
-    <motion.div
+    <motion.a
+      href={links.preview}
+      aria-label={title}
+      target="_blank"
       variants={fadeInAnimationVariants}
       initial="initial"
       whileInView="animate"
@@ -41,12 +43,7 @@ export const Project = ({ project, index }: TProps) => {
       custom={index}
       className="bg-background/80 flex flex-col rounded-lg border border-white/20 p-5 shadow-md backdrop-blur-md"
     >
-      <Link
-        href={links.preview}
-        aria-label={title}
-        target="_blank"
-        className="overflow-hidden rounded"
-      >
+      <div className="overflow-hidden rounded">
         <Image
           src={image}
           alt={title}
@@ -54,7 +51,7 @@ export const Project = ({ project, index }: TProps) => {
           width={600}
           className="rounded transition-transform hover:scale-105"
         />
-      </Link>
+      </div>
       <h3 className="mt-3 text-xl font-medium">{title}</h3>
       <p className="text-muted-foreground mb-2 mt-1">{description}</p>
       <div className="flex flex-wrap gap-2">
@@ -67,6 +64,6 @@ export const Project = ({ project, index }: TProps) => {
           </span>
         ))}
       </div>
-    </motion.div>
+    </motion.a>
   );
 };
