@@ -2,18 +2,20 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/button';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const Contact = () => {
-  const { ref } = useSectionInView('Contacto');
+  const t = useTranslations('contact');
+  const { ref } = useSectionInView('Contact');
 
   return (
     <motion.section
       ref={ref}
-      id="contacto"
+      id="contact"
       className="my-10 w-full scroll-mt-28 md:mb-20"
       initial={{
         opacity: 0,
@@ -29,10 +31,10 @@ export const Contact = () => {
       }}
     >
       <SectionHeading
-        heading="Entrar em Contacto"
+        heading={t('title')}
         content={
           <>
-            Entre em contacto por email{' '}
+            {t('description')}{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
@@ -40,7 +42,7 @@ export const Contact = () => {
             >
               <Link href="mailto:carlos@goat.africa">carlos@goat.africa</Link>
             </Button>{' '}
-            ou{' '}
+            {t('or')}{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"

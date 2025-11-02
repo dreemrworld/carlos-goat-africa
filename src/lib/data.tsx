@@ -2,24 +2,24 @@ import { Icons } from '@/components/icons';
 
 export const links = [
   {
-    name: 'Início',
+    name: 'Home',
     hash: '#home',
   },
   {
-    name: 'Sobre',
+    name: 'About',
     hash: '#about',
   },
   {
-    name: 'Experiência',
+    name: 'Experience',
     hash: '#experience',
   },
   {
-    name: 'Projetos',
+    name: 'Projects',
     hash: '#projects',
   },
   {
-    name: 'Contacto',
-    hash: '#contacto',
+    name: 'Contact',
+    hash: '#contact',
   },
 ] as const;
 

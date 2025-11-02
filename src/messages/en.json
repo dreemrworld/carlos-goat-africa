@@ -1,0 +1,145 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "intro": {
+    "available": "Available for collaborations",
+    "title": "Portfolio of Carlos Araújo",
+    "description": "Founder of Gestão Otimização e Aceleração Tecnológica (GOAT), artificial intelligence specialist, former Senior Technician at the Court of Auditors of Angola.",
+    "contact": "Get in touch"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Public Sector Auditing: digital tools to increase efficiency and effectiveness",
+        "description": "Public auditing lacks methodological innovation. Developed pioneering research on performance audits with emerging technologies. Was nominated for the best research award by the European Court of Auditors.",
+        "technologies": ["Blockchain", "Auditing", "AI"]
+      },
+      {
+        "title": "European Conference on Banking and Economy 2024",
+        "description": "More dialogue about emerging fintechs is needed. Participated as a guest speaker at ECOBATE 2024, held at the University of Winchester and organized by the Association for Research on Banking and the Economy (ARBE) and the Centre for Banking, Finance and Sustainable Development (CBFSD) of the University of Southampton.",
+        "technologies": ["Fintech", "Banking", "Economy"]
+      },
+      {
+        "title": "International Scientific Conference on Blockchain 2023",
+        "description": "The potential of blockchain in public governance deserves more attention. Presented his ideas at the International Scientific Conference on Blockchain in Manchester organized by the British Blockchain Association (BBA).",
+        "technologies": ["Blockchain", "Auditing", "AI"]
+      },
+      {
+        "title": "Anglia Ruskin University Recognitions",
+        "description": "Among 133 thousand alumni, the university monthly distinguishes those who stand out globally. Was named Alumni of the Month for March 2024 and is nominated for Alumni of the Year.",
+        "technologies": ["Alumni of the Month", "ARU", "Master's"]
+      },
+      {
+        "title": "Author",
+        "description": "There are few Angolan voices in technical debates about economics. Wrote three opinion articles for CINVESTEC. They were read by about 4,600 people.",
+        "technologies": ["Public Finance", "Entrepreneurship", "Banking"]
+      },
+      {
+        "title": "Emerging Tech 2035",
+        "description": "Few in Africa discuss the technological future with clarity. Created an infographic with his vision of technologies that will be common in 10 years, and shared it with everyone.",
+        "technologies": ["Robotics", "AI", "Futurism"]
+      },
+      {
+        "title": "Chat Bull - chat.bull.africa",
+        "description": "Due to the lack of accessible tools for AI startups in Africa, created a modern, free and open-source chatbot, with local storage, internet search and ability to read responses aloud. Has already impacted thousands of people.",
+        "technologies": ["Next.js", "AI", "Cloudflare"]
+      },
+      {
+        "title": "Chat GOAT - chat.goat.africa",
+        "description": "To build a truly useful AI assistant, created Pingo AI: a complete application, with authentication and own database, capable of responding, reasoning, translating, generating documents and programming. It is used by 3 thousand people per month.",
+        "technologies": ["Next.js", "AI", "Vercel"]
+      },
+      {
+        "title": "Nota Bene – nb.bull.africa",
+        "description": "Cloud solutions compromise the privacy of research notes. Developed an app that stores everything locally, on the user's device, without using the cloud. Data stays more secure, private — and the code is open.",
+        "technologies": ["React", "Vite", "TipTap", "Cloudflare"]
+      },
+      {
+        "title": "HTML Editor - html.bull.africa",
+        "description": "Depended on an online editor full of ads. Created his own version: clean, functional and open-source, without ads and with total transparency.",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Cloudflare"]
+      },
+      {
+        "title": "History of Finance: from Medici to BTC",
+        "description": "Predicting crises requires understanding historical cycles. Created an infographic that maps financial bubbles throughout the centuries — to facilitate more informed predictions.",
+        "technologies": ["History", "Finance", "Bubbles"]
+      },
+      {
+        "title": "Currency Converter",
+        "description": "In Angola, monitoring exchange rate fluctuations is essential but many tools are slow or paid. Created a lightweight and free app that shows more than 100 currencies in real time, with historical charts for quick and informed analysis.",
+        "technologies": ["Vibe Coding", "Exchange APIs", "Interactive Charts"]
+      },
+      {
+        "title": "Smart Dictionary",
+        "description": "Needed a fast dictionary that went beyond definitions. Developed an app where anyone can look up words, see synonyms, antonyms and hear correct pronunciation — all in one place.",
+        "technologies": ["Vibe Coding", "Lexicography", "Web Audio"]
+      },
+      {
+        "title": "ISC: Guardians of Gender Equality",
+        "description": "There was a lack of practical documentation on gender auditing in the Higher Control Institutions of PALOP. Prepared a research report adopted in an international meeting between Angola and other Lusophone countries, promoting female empowerment in public governance.",
+        "technologies": ["Gender Auditing", "International Cooperation", "Public Policies"]
+      },
+      {
+        "title": "Technology Online Store",
+        "description": "Due to the lack of simple, complete and free e-commerce templates for emerging markets, created a functional demo store with HTML, CSS, JavaScript and integrated API — including realistic checkout page. It's a ready-to-use model for any entrepreneur who wants to sell products online without depending on paid platforms.",
+        "technologies": ["HTML", "CSS", "Javascript"]
+      },
+      {
+        "title": "Digital Catalog - shop.goat.africa",
+        "description": "Managing a product catalog in Angola is challenging without accessible solutions. Developed a catalog website that updates automatically from a Google Sheets spreadsheet. Just edit the table for the site to reflect changes in real time, making it ideal for small businesses in resource-constrained contexts.",
+        "technologies": ["HTML", "CSS", "Javascript"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "title": "Founder",
+        "company": "Gestão Otimização e Aceleração Tecnológica (GOAT)",
+        "description": "Previously known as Dreemrworld FZCO, Consulting Carlos Araújo (CCA) and Angowebsites, GOAT is an Angolan startup that combines consulting with development of popular web applications like goat.africa and bull.africa - 6 thousand new visitors in October 2025.",
+        "period": "Dec 2021 - Present",
+        "technologies": ["Consulting", "Applications", "AI"]
+      },
+      {
+        "title": "Senior Technician",
+        "company": "Court of Auditors of Angola",
+        "description": "Auditor of public contracts, external financing and public bodies. Worked on the introduction in Angola of performance audits in collaboration with the International Organization of Supreme Audit Institutions (INTOSAI). Scholarship holder and class delegate of the Public Finance postgraduate program of the PALOP-TL Program co-financed by the EU/UNDP, intended for technicians and judges of the Court of Auditors, Ministry of Finance and National Assembly.",
+        "period": "Jan 2020 - Nov 2021",
+        "technologies": ["Public Sector Auditing", "Public Finance", "Blockchain"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch by email",
+    "or": "or",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  },
+  "footer": {
+    "copyright": "© 2025 Carlos Araújo. All rights reserved."
+  },
+  "about": {
+    "heading": "About me",
+    "description": "Carlos Araújo holds a Master's in Business Management, a Postgraduate degree in Public Finance, and a Bachelor's in Entrepreneurship. He lives in Angola where he provides business consulting services and conducts research and development of artificial intelligence applications. His public auditing research was distinguished by the European Court of Auditors and he presented at international conferences in Manchester, Winchester and beyond, on blockchain, public finance and the future of technology."
+  },
+  "language": {
+    "portuguese": "Português",
+    "english": "English"
+  }
+}
